@@ -1,2 +1,5 @@
+# Игнорировать файл preview
+/preview/view.jpg
 
-/onky
+#Исключим сам файл .gitignore:
+.gitignore
