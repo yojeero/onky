@@ -528,13 +528,19 @@ body
 
 	width : 70px;
 	height : 70px;
-
 	margin : auto;
 }
 
-.loader svg polygon { animation : dash 2.5s cubic-bezier(.35, .04, .63, .95) infinite; stroke-dasharray : 17; }
+.loader svg polygon
+{
+	animation : dash 2.5s cubic-bezier(.35, .04, .63, .95) infinite;
+	stroke-dasharray : 17;
+}
 
-@keyframes dash { to { stroke-dashoffset : 136; } }
+@keyframes dash
+{
+	to	{ stroke-dashoffset : 136;	}
+}
 
 /*   Responsive mobile screen max 340px	  */
 

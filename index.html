@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,9 +25,11 @@
 
 	<!-- style CSS -->
 	<link href="css/style.css" rel="stylesheet" />
+
 </head>
 
 <body>
+	
 	<!-- loader -->
 	<div class="loader">
 		<svg viewBox="-3 -4 39 39">
@@ -37,8 +40,11 @@
 	<!-- player -->
 
 	<div class="container" id="app">
+
 		<div class="player">
+
 			<div class="top-color">
+
 				<div class="code">
 					<a :href="`https://github.com/yojeero/`" target="_blank">
 						<svg>
@@ -51,9 +57,11 @@
 				<div class="point">
 					<a :href="currentTrack.url" target="_blank"></a>
 				</div>
+
 			</div>
 
 			<div class="main">
+
 				<div class="top-clock">
 					<div id="time"></div>
 					<div id="day"></div>
@@ -68,6 +76,7 @@
 				</div>
 
 				<div class="progress" ref="progress">
+
 					<div class="album-info" v-if="currentTrack">
 						<div class="name">{{ currentTrack.name }}</div>
 						<div class="artist">{{ currentTrack.artist }}</div>
@@ -76,9 +85,11 @@
 					<div class="progress_bar" @click="clickProgress">
 						<div class="line" :style="{ width : barWidth }"></div>
 					</div>
+
 				</div>
 
 				<div class="player-controls">
+
 					<div class="pn-icon" @click="prevTrack" @keyup.left="prevTrack" tabindex="0">
 						<svg>
 							<use xlink:href="img/icon.svg#icon-prev"></use>
@@ -97,9 +108,9 @@
 							<use xlink:href="img/icon.svg#icon-next"></use>
 						</svg>
 					</div>
+
 				</div>
-			</div>
-			<!-- end main content -->
+			</div><!-- end main content -->
 
 			<div class="bottom-color">
 				<div class="bottom-label">
@@ -117,10 +128,9 @@
 					time
 				</div>
 			</div>
-		</div>
-		<!-- end player -->
-	</div>
-	<!-- end container -->
+		</div><!-- end player -->
+
+	</div><!-- end container -->
 
 	<!-- jQuery + Vue JS -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>

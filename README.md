@@ -6,7 +6,6 @@
 Features
 ```
 
-- Light color theme
 - 5 online radio stations presents
 - Any number of radio stations & covers in vue.player.js
 - Clock with time and day of week
