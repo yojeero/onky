@@ -1,10 +1,6 @@
-<img src="preview/view.png">
+<img src="preview/git.png">
 
 ### [Onky](https://onky.vercel.app/) - online radio player ###
-
-```
-Features
-```
 
 - 5 online radio stations presents
 - Any number of radio stations & covers in vue.player.js
@@ -17,4 +13,4 @@ Features
 - jQuery, VueJS
 - Animations
 
--- All images and icons are for demonstration purposes only --
+
