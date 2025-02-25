@@ -1,4 +1,4 @@
-<img src="preview/git_.png">
+<img src="preview/git.png">
 
 ### [Onky](https://onky.vercel.app/) - online radio player
 
