@@ -7,10 +7,8 @@
 - Clock with time and day of week
 - Vue.js based player
 - 100% Responsive Design
-- Flexbox
-- SVG icons 
-- Google Fonts
-- jQuery, VueJS
+- Flexbox, jQuery
+- SVG icons, Google Fonts
 - Animations
 
 
