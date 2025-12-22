@@ -1,14 +1,15 @@
-<img src="preview/git.png">
+<img src="preview/git.webp">
 
-### [Onky](https://onky.vercel.app/) - online radio player
+### [Onky](https://onky.vercel.app/) - radio player
 
-- 5 online radio stations presents
-- Any number of radio stations & covers in vue.player.js
+- 5 presents radio stations 
+- Any radio stations
 - Clock with time and day of week
 - Vue.js based player
-- 100% Responsive Design
+- 100% Responsive
 - Flexbox, jQuery
-- SVG icons, Google Fonts
-- Animations
+- SVG icons   
+- Google Fonts
+
 
 

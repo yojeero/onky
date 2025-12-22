@@ -21,11 +21,11 @@
 </head>
 
 <body>
-	
+
 	<!-- loader -->
 	<div class="loader">
 		<svg viewBox="-3 -4 39 39">
-			<polygon fill="#f1f1f1" stroke="#000" stroke-width="1" points="16,0 32,32 0,32">		
+			<polygon fill="#f1f1f1" stroke="#000" stroke-width="1" points="16,0 32,32 0,32">
 			</polygon>
 		</svg>
 	</div>
@@ -130,15 +130,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.7.1/dist/vue.min.js"></script>
 	<script src="js/vue.player.js"></script>
 
-	<!-- loader hide -->
-	<script>
-		setTimeout(function () {
-			document.querySelector(".loader").style.display = "none";
-		}, 500);
-	</script>
-
 	<!-- SVG icons -->
-	<script src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js" onload="svg4everybody({})"	async=""></script>
+	<script src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js" onload="svg4everybody({})"
+		async=""></script>
 
 	<!-- clock -->
 	<script>
@@ -163,5 +157,16 @@
 		setInterval(updateClock, 1e3), updateClock();
 	</script>
 
+	<!-- LOADER HIDE -->
+	<script>
+		window.addEventListener("load", () => {
+			const loader = document.querySelector(".loader");
+			if (!loader) return;
+			loader.classList.add("opacity-0");
+			setTimeout(() => loader.remove(), 200);
+		});
+	</script>
+
 </body>
+
 </html>
