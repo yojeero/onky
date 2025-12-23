@@ -2,10 +2,10 @@
 
 ### [Onky](https://onky.vercel.app/) - radio player
 
--> 5 preset radio stations  
--> 100% responsive  
--> HTML5 and CSS  
--> Vue.js player  
--> Google Font  
--> SVG icons  
--> Time and Day
+5 preset radio stations  
+100% responsive  
+HTML5 and CSS  
+Vue.js player  
+Google Font  
+SVG icons  
+Time and Day
