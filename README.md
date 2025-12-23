@@ -2,14 +2,10 @@
 
 ### [Onky](https://onky.vercel.app/) - radio player
 
-- 5 presents radio stations 
-- Any radio stations
-- Clock with time and day of week
-- Vue.js based player
-- 100% Responsive
-- Flexbox, jQuery
-- SVG icons   
-- Google Fonts
-
-
-
+-> 5 preset radio stations  
+-> 100% responsive  
+-> HTML5 and CSS  
+-> Vue.js player  
+-> Google Font  
+-> SVG icons  
+-> Time and Day
